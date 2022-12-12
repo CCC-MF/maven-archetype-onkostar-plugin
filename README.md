@@ -5,7 +5,7 @@ Dieses Projekt enthält einen Maven Archetype für Onkostar plugins.
 ## Eigenschaften der erstellten Plugins
 
 * Es wird Java 11 verwendet
-* Die erstellte POM Datei beinhaltet initiale Spring-, Logging- und Testabhänghigkeiten.
+* Die erstellte POM Datei beinhaltet initiale Spring-, Logging- und Testabhängigkeiten.
 * Die Onkostar-API wird nicht mitgeliefert.
   Es wird davon ausgegangen, dass die passende JAR-Datei in das erstellte Verzeichnis `libs` kopiert wird. 
 * Das Plugin enthält eine Vorlage für eine Pluginklasse mit einigen Beschreibungen.
@@ -49,3 +49,7 @@ Dabei sollen die Werte für die folgenden Parameter auf einen eigenen Wert geän
 * `version`: Erste Version des zu erstellenden Plugins. z.B. `1.0.0`
 * `onkostarVersion`: Überschreibt die zu verwendende Version der Onkostar-API. Standardwert: `2.11.1.3` 
 * `package`: Überschreibt den verwendeten Java-Paketnamen. Standardwert: `package`
+
+### Weitere Informationen
+
+Weitere Informationen sind im [Confluence von IT-Choice](https://confluence.it-choice.de/display/KBOSTARAPI/Erstellen+eines+Onkostar-Plugins+mit+Maven) verfügbar.
